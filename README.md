@@ -35,26 +35,9 @@
 
 ## 🧩 How I work
 
-```mermaid
-flowchart LR
-    IDEA["💡 Idea"] --> READ["📖 Read the source"]
-    READ --> DESIGN["✏️ Design"]
-    DESIGN --> BUILD["🛠️ Build<br/>frontend · backend"]
-    BUILD --> TEST["✅ Test and review"]
-    TEST --> SHIP["🚀 Automated release"]
-    SHIP --> WATCH["📈 Monitor"]
-    WATCH -.->|learn| IDEA
-    TEST -.->|fix| BUILD
-    MENTOR["🤝 Mentor the team"] -.-> BUILD
-    MENTOR -.-> TEST
-
-    classDef step fill:#161616,stroke:#4a4a4a,stroke-width:1px,color:#f5f5f5
-    classDef ship fill:#161616,stroke:#ffd866,stroke-width:2px,color:#ffd866
-    classDef people fill:#161616,stroke:#8c8c8c,stroke-width:1px,stroke-dasharray:4 3,color:#d6d6d6
-    class IDEA,READ,DESIGN,BUILD,TEST,WATCH step
-    class SHIP ship
-    class MENTOR people
-```
+<p align="center">
+  <img src="./assets/workflow.svg" alt="My working loop in eight steps: idea, read the source, design, build the frontend and backend, test and review, automated release, monitor, learn, and back to idea. I mentor the team at every step." width="860" />
+</p>
 
 ## 🗺️ Where I work in the stack
 
